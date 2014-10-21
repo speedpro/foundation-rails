@@ -1,6 +1,7 @@
 /* This file will import only the mixins found in Foundation.
   For some reason, Rails asset pipeline stuffs up the mixins,
   so this file needs to be included in every scss doc that needs to include mixins */
-$import-html-classes: false;          //Only include mixins, not the css classes
-$import-meta-data: false;             //Don't include the meta-data from _global.scss everytime this file is included
+$include-html-classes: false;          //Only include mixins, not the css classes
+$include-print-styles: false;
+$include-meta-data: false;             //Don't include the meta-data from _global.scss everytime this file is included
 @import "foundation_and_overrides";
